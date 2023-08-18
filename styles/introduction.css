@@ -1,0 +1,123 @@
+body, main {
+  background: rgb(228, 238, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Akatab', sans-serif;
+}
+
+.imageBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.listBox {
+  width: 70%;
+}
+
+.understandP {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1.5% 0% 2% 0%;
+}
+
+
+.navBox {
+  width: 80%;
+  margin: 3% 0% 3% 0%;
+  font-size: 18px;
+}
+
+nav > li {
+  display: inline;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  transition: 0.15s;
+}
+
+a, a:visited, a:focus {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #0000EE;
+}
+
+.caption {
+  margin: 1.5% 0% 4.5% 0%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5%;
+}
+
+.designedBy {
+  font-size: 14px;
+  margin: 0% 0% 1% 0%;
+}
+
+.footerButtons {
+  margin: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 50%;
+}
+
+.image {
+  width: 50%;
+  height: auto;
+  box-shadow: 1px 2px 9px rgb(103, 103, 103);
+}
+
+footer > div > a > img {
+  transition: 0.26s;
+  width: 70%;
+  height: auto;
+}
+
+footer > div > a > img:hover {
+  width: 80%;
+  cursor: pointer;
+}
+
+footer > div > a > p {
+  color: black;
+  text-decoration: underline;
+}
+
+footer > div > a > p:hover {
+  color: #0000EE;
+}
+
+.cssImg {
+  width: 80%;
+}
+
+.cssImg:hover {
+  width: 90%;
+  cursor: pointer;
+}
+
+footer > div > a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
