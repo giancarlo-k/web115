@@ -18,7 +18,7 @@ main {
   display: flex;
   flex-direction: column;
   padding: 0 2% 0 2%;
-  animation: fadeInAnimation ease 2.5s;
+  animation: fadeInAnimation ease 2.4s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
