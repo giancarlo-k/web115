@@ -5,6 +5,7 @@ body {
   align-items: center;
   justify-content: center;
   font-family: 'Akatab', sans-serif;
+  font-weight: 400;
 }
 
 
@@ -32,7 +33,7 @@ h2 {
 
 /* ------------------------------------------------------------------------------------------ */
 
-header > nav > li > a {
+header > nav > ul > li > a {
   text-decoration: none;
   color: black;
   font-size: 16px;
@@ -42,17 +43,24 @@ header > nav > li > a {
   transition: 0.25s;
 }
 
-header > nav > li > a:hover {
+header > nav > ul > li > a:hover {
   background-color: #45c4de26;
   text-shadow: 1px 1px 5px white;
   cursor: pointer;
 }
 
-header > nav > li {
+header > nav > ul > li {
   display: inline;
 }
 
-header > nav {
+header > nav > ul {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+header > nav  {
   display: flex;
   justify-content: space-around;
   text-decoration: none;
