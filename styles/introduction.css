@@ -23,6 +23,10 @@ main {
   animation-fill-mode: forwards;
 }
 
+h2 {
+  align-self: center;
+}
+
 .listBox {
   width: 70%;
 }
