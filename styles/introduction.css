@@ -14,6 +14,16 @@ body {
   justify-content: center;
 }
 
+.classLink {
+  color: #03045E;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.classLink:hover {
+  color: #4582BE;
+}
+
 main {
   display: flex;
   flex-direction: column;
@@ -25,10 +35,12 @@ main {
 
 h2 {
   align-self: center;
+  margin-top: -.5%;
 }
 
 .listBox {
   width: 70%;
+  margin-top: -3%;
 }
 
 .understandP {
@@ -101,8 +113,6 @@ footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 1.5%;
-  margin-top: 5%;
   animation: fadeInAnimation ease 3.5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
@@ -110,7 +120,7 @@ footer {
 
 .navBox {
   width: 80%;
-  margin: 3% 0% 3% 0%;
+  margin: 1% 0% 1% 0%;
   font-size: 18px;
   text-decoration: none;
 }
@@ -151,7 +161,7 @@ footer {
   flex-direction: row;
   justify-content:space-around;
   align-items: center;
-  margin: 20px;
+  margin: 10px;
   width: 50%;
   font-size: 14px;
 }
@@ -179,3 +189,6 @@ footer {
       opacity: 1;
   }
 }
+
+
+
